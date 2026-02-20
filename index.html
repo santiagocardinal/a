@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAZÓN - Hamburguesas Gourmet con Pan de Papa</title>
+  <link rel="icon" type="image/png" href="LOGO.png" />
+  <meta name="description" content="SAZÓN - Hamburguesas caseras gourmet con pan de papa. Street food elegante, ingredientes frescos y sabor auténtico. No es solo una burger." />
+  <meta name="keywords" content="hamburguesas gourmet, street food, pan de papa, delivery, PedidosYa, burger casera, comida urbana" />
+  <meta name="author" content="SAZÓN" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="SAZÓN - No es solo una burger" />
+  <meta property="og:description" content="Hamburguesas caseras gourmet con pan de papa. Suave por fuera, brutal por dentro." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SAZÓN - No es solo una burger" />
+  <meta name="twitter:description" content="Hamburguesas caseras gourmet con pan de papa. Street food elegante." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#home">
+    <img src="LOGO.png" alt="SAZÓN Logo" class="nav-logo" />
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#home">INICIO</a></li>
+    <li><a href="#nosotros">NOSOTROS</a></li>
+    <li><a href="#menu">MENÚ</a></li>
+    <li><a href="#contacto">CONTACTO</a></li>
+  </ul>
+
+  <a href="https://www.pedidosya.com.ar/restaurantes/sazon-burgers" target="_blank" rel="noopener noreferrer" class="btn-primary navbar-cta">PEDÍ AHORA</a>
+
+  <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menú">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div id="mobile-menu" role="dialog" aria-modal="true">
+  <button class="close-btn" id="closeMenu" aria-label="Cerrar menú">
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+    </svg>
+  </button>
+  <a href="#home" class="mobile-link">INICIO</a>
+  <a href="#nosotros" class="mobile-link">NOSOTROS</a>
+  <a href="#menu" class="mobile-link">MENÚ</a>
+  <a href="#contacto" class="mobile-link">CONTACTO</a>
+  <a href="https://www.pedidosya.com.ar/restaurantes/sazon-burgers" target="_blank" class="btn-primary" style="font-size:24px;padding:16px 40px;margin-top:16px;">PEDÍ AHORA</a>
+</div>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">SAZÓN</h1>
+    <p class="hero-subtitle">No es solo una burger</p>
+    <p class="hero-desc">Hamburguesas caseras con pan de papa. Suave por fuera, brutal por dentro.</p>
+    <div class="hero-buttons">
+      <a href="#menu" class="btn-primary">VER MENÚ</a>
+      <a href="https://www.pedidosya.com.ar/restaurantes/sazon-burgers" target="_blank" rel="noopener noreferrer" class="btn-outline">PEDÍ AHORA</a>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE NOSOTROS -->
+<section id="nosotros" class="section">
+  <div class="section-inner">
+    <h2 class="section-title">NUESTRA ESENCIA</h2>
+    <div class="about-grid">
+      <div>
+        <p class="about-text">
+          <strong>SAZÓN</strong> nace como una propuesta gastronómica enfocada en ofrecer hamburguesas caseras de alta calidad, combinando sabor auténtico, ingredientes frescos y una identidad urbana moderna.
+          <br /><br />
+          No solo alimentamos, generamos antojo y experiencia.
+        </p>
+      </div>
+      <div class="about-img-wrap">
+        <img src="https://cdn.wegic.ai/assets/onepage/agent/images/1771354602453.jpg"
+             alt="Preparación artesanal de hamburguesas SAZÓN" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VISIÓN Y MISIÓN -->
+<section id="vision" class="section">
+  <div class="section-inner">
+    <div class="vm-grid">
+      <!-- VISIÓN -->
+      <div class="vm-card">
+        <div class="vm-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+          </svg>
+        </div>
+        <h3 class="vm-card-title">VISIÓN</h3>
+        <p>Posicionarnos como marca referente dentro del segmento street gourmet, destacándonos por estética, consistencia y calidad.</p>
+      </div>
+      <!-- MISIÓN -->
+      <div class="vm-card">
+        <div class="vm-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </div>
+        <h3 class="vm-card-title">MISIÓN</h3>
+        <ul>
+          <li>Ofrecer hamburguesas caseras con pan de papa</li>
+          <li>Garantizar sabor y frescura</li>
+          <li>Cuidar cada detalle</li>
+          <li>Mantener estándares de calidad constantes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DIFERENCIADORES -->
+<section id="diferencias" class="section">
+  <div class="section-inner">
+    <h2 class="section-title">¿QUÉ NOS HACE DIFERENTES?</h2>
+    <div class="features-grid">
+      <!-- Pan de papa -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a8 8 0 0 1 8 8c0 4.4-8 12-8 12S4 14.4 4 10a8 8 0 0 1 8-8z"/><circle cx="12" cy="10" r="3"/>
+          </svg>
+        </div>
+        <h4 class="feature-title">PAN DE PAPA</h4>
+        <p class="feature-desc">Nuestro diferencial único. Suave, esponjoso y casero.</p>
+      </div>
+      <!-- Identidad -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3l1.09 3.26L16 7l-2.91 2.14L14 13l-2-1.5L10 13l.91-3.86L8 7l2.91-.74z"/><path d="M5 3l.54 1.63L7 5l-1.46 1.07.46 1.93L5 7l-1 .75.46-1.93L3 5l1.46-.37z"/><path d="M19 3l.54 1.63L21 5l-1.46 1.07.46 1.93L19 7l-1 .75.46-1.93L17 5l1.46-.37z"/>
+          </svg>
+        </div>
+        <h4 class="feature-title">IDENTIDAD STREET ELEGANTE</h4>
+        <p class="feature-desc">Gourmet urbano. Estética cuidada en cada detalle.</p>
+      </div>
+      <!-- Recetas -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6z"/>
+            <line x1="6" y1="17" x2="18" y2="17"/>
+          </svg>
+        </div>
+        <h4 class="feature-title">RECETAS CASERAS</h4>
+        <p class="feature-desc">Preparación artesanal con ingredientes frescos seleccionados.</p>
+      </div>
+      <!-- Presentación -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+          </svg>
+        </div>
+        <h4 class="feature-title">PRESENTACIÓN IMPECABLE</h4>
+        <p class="feature-desc">Cada burger es una obra de arte lista para disfrutar.</p>
+      </div>
+      <!-- Experiencia -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+          </svg>
+        </div>
+        <h4 class="feature-title">EXPERIENCIA SOBRE PRECIO</h4>
+        <p class="feature-desc">Valoramos la calidad y la satisfacción del cliente.</p>
+      </div>
+    </div>
+    <!-- Bun image -->
+    <div class="bun-img-wrap">
+      <img src="https://cdn.wegic.ai/assets/onepage/agent/images/1771354602353.jpg"
+           alt="Pan de papa artesanal SAZÓN" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- MENÚ -->
+<section id="menu" class="section">
+  <div class="section-inner">
+    <h2 class="section-title">NUESTRO MENÚ</h2>
+    <div class="menu-grid">
+      <!-- Clásica -->
+      <div class="menu-card">
+        <div class="menu-img-wrap">
+          <img src="https://cdn.wegic.ai/assets/onepage/agent/images/1771354607598.jpg" alt="Clásica SAZÓN" loading="lazy" />
+        </div>
+        <div class="menu-card-body">
+          <h3 class="menu-name">CLÁSICA SAZÓN</h3>
+          <p class="menu-desc">La receta original. Carne premium, queso, lechuga, tomate y nuestra salsa especial.</p>
+          <span class="menu-price">$450</span>
+        </div>
+      </div>
+      <!-- Doble Street -->
+      <div class="menu-card">
+        <div class="menu-img-wrap">
+          <img src="https://cdn.wegic.ai/assets/onepage/agent/images/1771354608035.jpg" alt="Doble Street" loading="lazy" />
+        </div>
+        <div class="menu-card-body">
+          <h3 class="menu-name">DOBLE STREET</h3>
+          <p class="menu-desc">Doble carne, doble queso, cebolla caramelizada. Para los que no se conforman.</p>
+          <span class="menu-price">$890</span>
+        </div>
+      </div>
+      <!-- La Brutal -->
+      <div class="menu-card">
+        <div class="menu-img-wrap">
+          <img src="https://cdn.wegic.ai/assets/onepage/agent/images/1771354608838.jpg" alt="La Brutal" loading="lazy" />
+        </div>
+        <div class="menu-card-body">
+          <h3 class="menu-name">LA BRUTAL</h3>
+          <p class="menu-desc">Triple carne, bacon, aros de cebolla, queso fundido. No apta para cardíacos.</p>
+          <span class="menu-price">$990</span>
+        </div>
+      </div>
+      <!-- Mostaza Urban -->
+      <div class="menu-card">
+        <div class="menu-img-wrap">
+          <img src="https://cdn.wegic.ai/assets/onepage/agent/images/1771354609039.jpg" alt="Mostaza Urban" loading="lazy" />
+        </div>
+        <div class="menu-card-body">
+          <h3 class="menu-name">MOSTAZA URBAN</h3>
+          <p class="menu-desc">Bacon crujiente, rúcula, queso especial y nuestra mostaza de autor.</p>
+          <span class="menu-price">$450</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--HORARIOS-->
+<section id="horarios" class="section">
+  <div class="section-inner">
+    <h2 class="section-title">NUESTROS HORARIOS</h2>
+    <div class="menu-grid" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
+
+  <!-- Casilla 1 -->
+  <div class="menu-card">
+    <div class="menu-card-body">
+      <h3 class="menu-name">VIERNES</h3>
+      <p class="menu-desc">Desde: 22:00 - 00:00</p>
+    </div>
+  </div>
+
+  <!-- Casilla 2 -->
+  <div class="menu-card">
+    <div class="menu-card-body">
+      <h3 class="menu-name">SÁBADOS</h3>
+      <p class="menu-desc">Desde: 20:00 - 01:00</p>
+    </div>
+  </div>
+
+  <!-- Casilla 3 -->
+  <div class="menu-card">
+    <div class="menu-card-body">
+      <h3 class="menu-name">DOMINGOS</h3>
+      <p class="menu-desc">Desde: 20:00 - 01:00</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- PLATAFORMAS -->
+<section id="contacto" class="section">
+  <div class="section-inner">
+    <h2 class="section-title">ENCONTRANOS EN</h2>
+    <div class="platforms-grid">
+      <!-- Instagram -->
+      <div class="platform-card">
+        <div class="platform-icon">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </div>
+        <h3 class="platform-title">INSTAGRAM</h3>
+        <p class="platform-desc">Canal principal de identidad visual. Seguinos para ver nuestras creaciones.</p>
+        <p class="platform-user">@sazon.burgers</p>
+        <a href="https://www.instagram.com/sazon.burgers" target="_blank" rel="noopener noreferrer" class="btn-outline">SEGUIR EN INSTAGRAM</a>
+      </div>
+      <!-- PedidosYa -->
+      <div class="platform-card">
+        <div class="platform-icon">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+        </div>
+        <h3 class="platform-title">PEDIDOSYA</h3>
+        <p class="platform-desc"> Pedí desde la comodidad de tu casa.</p>
+        <p class="platform-user" style="margin-bottom:24px;">&nbsp;</p>
+        <a href="https://www.pedidosya.com.ar/restaurantes/sazon-burgers" target="_blank" rel="noopener noreferrer" class="btn-outline">PEDIR AHORA</a>
+      </div>
+      <!-- Contacto directo -->
+      <div class="platform-card">
+        <div class="platform-icon">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9a16 16 0 0 0 6.91 6.91l.82-.82a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+        </div>
+        <h3 class="platform-title">CONTACTO DIRECTO</h3>  
+        <p class="platform-desc">Llamanos o escribinos por WhatsApp para pedidos especiales.</p>
+        <p class="platform-user">+598 098 283 674</p>
+        <a href="https://wa.me/598098283674" target="_blank" class="btn-outline">ESCRIBIR POR WHATSAPP</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div style="text-align: center;">
+        <img src="LOGO.png" alt="SAZÓN Logo" class="nav-logo" />
+        <p class="footer-tagline">Hamburguesas caseras con pan de papa. Suave por fuera, brutal por dentro.</p>
+      </div>
+      <!-- Contacto -->
+<div>
+  <h4 class="footer-col-title">CONTACTO</h4>
+  <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 8px;">
+
+    <a href="https://www.instagram.com/sazon.burgers" target="_blank" rel="noopener noreferrer"
+       style="display: flex; align-items: center; gap: 14px; color: #F5F5F5; text-decoration: none; transition: opacity 300ms;"
+       onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">
+      <span style="width: 40px; height: 40px; border: 1px solid #6E0F1F; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </svg>
+      </span>
+      <span>
+        <span style="display: block; font-size: 11px; color: #888; letter-spacing: 0.1em; margin-bottom: 2px;">INSTAGRAM</span>
+        @sazon.burgers
+      </span>
+    </a>
+
+    <span style="display: flex; align-items: center; gap: 14px; color: #F5F5F5; font-size: 16px;">
+      <span style="width: 40px; height: 40px; border: 1px solid #6E0F1F; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C69214" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+      </span>
+      <span>
+        <span style="display: block; font-size: 11px; color: #888; letter-spacing: 0.1em; margin-bottom: 2px;">UBICACIÓN</span>
+        Montevideo, Uruguay
+      </span>
+    </span>
+
+  </div>
+</div>
+
+<!-- CTAs -->
+<div>
+  <h4 class="footer-col-title">PEDÍ AHORA</h4>
+  <div class="footer-cta-buttons">
+    <a href="https://www.pedidosya.com.ar/restaurantes/sazon-burgers" target="_blank" rel="noopener noreferrer" class="btn-primary">PEDIR POR PEDIDOSYA</a>
+    <a href="https://www.instagram.com/sazon.burgers" target="_blank" rel="noopener noreferrer" class="btn-outline">VER INSTAGRAM</a>
+  </div>
+</div>
+
+</div>
+
+<!-- Bottom -->
+<div class="footer-bottom">
+  <p class="footer-big-tagline"><em>"Donde el sabor se viste de gala"</em></p>
+  <div style="width: 40px; height: 2px; background: #6E0F1F; margin: 20px auto;"></div>
+  <p class="footer-copyright" style="font-size: 13px; color: #555; letter-spacing: 0.08em;">© 2026 SAZÓN. Todos los derechos reservados.</p>
+</div>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
